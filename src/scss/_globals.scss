@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: $bodyBackground;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a, a:visited, a:hover {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+h1 {
+    font-size: 2rem;
+    @media screen and (min-width: 64em) {
+        font-size: 2.5rem;
+    }
+}
+h2 {
+    font-size: 1.5rem;
+    @media screen and (min-width: 64em) {
+        font-size: 2rem;
+    }
+}
+h3 {
+    font-size: 1.2rem;
+    @media screen and (min-width: 64em) {
+        font-size: 1.7rem;
+    }
+}
